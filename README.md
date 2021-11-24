@@ -7,13 +7,13 @@ npm install -g yo
 npm install -g generator-az-terra-module
 ```
 
-# Generate template
+# Generate templates
 ```
 # Create template folder
 folderName=sampleTemplate
 mkdir $folderName
 cd $folderName
 
-# Create base module template
+# Create terraform base module template
 yo az-terra-module
 ```
